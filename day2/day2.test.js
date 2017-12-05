@@ -43,7 +43,8 @@ describe('Day 2', () => {
     1308	797	498	791	1312	99	1402	1332	521	1354	1339	101	367	1333	111	92
     149	4140	112	3748	148	815	4261	138	1422	2670	32	334	2029	4750	4472	2010
     114	605	94	136	96	167	553	395	164	159	284	104	530	551	544	18`
-    console.log('Day 2 answer is: '+ calculateSpreadsheetChecksum(input));
+    expect(calculateSpreadsheetChecksum(input)).toEqual(42378);
+    // console.log('Day 2 answer is: '+ calculateSpreadsheetChecksum(input));
   });
   
   
