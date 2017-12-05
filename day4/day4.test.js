@@ -15,13 +15,13 @@ describe('Day 4', () => {
 `aa bb cc dd ee
 aa bb cc dd aa
 aa bb cc dd aaa`;
-    console.log(validatePasswords(input))
+    // console.log(validatePasswords(input))
     expect(validatePasswords(input).length).toEqual(2);
   });
 
   
   it('should match puzzle input', () => {
     expect(validatePasswords(puzzleInput).length).toEqual(466);
-    console.log('Day 4 answer is: ' + validatePasswords(puzzleInput).length)
+    // console.log('Day 4 answer is: ' + validatePasswords(puzzleInput).length)
   });  
 });
