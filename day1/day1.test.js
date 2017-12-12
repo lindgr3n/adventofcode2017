@@ -15,6 +15,16 @@ describe('Day 1', () => {
     
     expect(nextSum(input)).toEqual(1029);
   });
+
+  
+  it('should sum halway up correctly', () => {
+    expect(nextSum(1212, 2)).toEqual(6);
+    /* expect(nextSum(1221, 2)).toEqual(0);
+    expect(nextSum(123425, 3)).toEqual(4);
+    expect(nextSum(123123, 3)).toEqual(12);
+    expect(nextSum(12131415, 4)).toEqual(4); */
+  });
+  
   
   
 });
